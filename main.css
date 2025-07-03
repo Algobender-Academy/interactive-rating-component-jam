@@ -167,7 +167,7 @@ h2 {
   color: var(--GREY-500);
 }
 
-.rating__input:checked + .rating__number {
+.rating__button.active .rating__number {
   background-color: var(--ORANGE);
   color: var(--GREY-900);
 }
