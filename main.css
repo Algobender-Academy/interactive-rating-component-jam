@@ -352,4 +352,9 @@ h2 {
     background-color: var(--WHITE);
     cursor: pointer;
   }
+
+  label:hover .rating__number,
+  label:focus-visible .rating__number {
+    color: var(--GREY-900);
+  }
 }
