@@ -345,7 +345,8 @@ h2 {
   }
 
   /* RATING-FORM */
-  .rating__number:hover,
+  label:hover .rating__number,
+  label:focus-visible .rating__number,
   .rating__submit:hover,
   .rating__submit:focus-visible {
     background-color: var(--WHITE);
